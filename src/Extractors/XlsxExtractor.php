@@ -110,7 +110,7 @@ final class XlsxExtractor implements ExtractorInterface
         $selectedSheet = \null;
 
         foreach ($reader->getSheetIterator() as $sheet) {
-            /** @var \OpenSpout\Reader\XLSX\Sheet $sheet */
+            /** @var Sheet $sheet */
             if ($sheet->getIndex() !== $this->sheetIndex) {
                 continue;
             }

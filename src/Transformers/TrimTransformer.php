@@ -79,7 +79,7 @@ final class TrimTransformer implements TransformerInterface
     }
 
     /**
-     * @throws \Jwhulette\Pipes\Exceptions\PipesInvalidArgumentException
+     * @throws PipesInvalidArgumentException
      */
     public function trimColumnValue(?string $value, ?string $type, ?string $mask): string
     {

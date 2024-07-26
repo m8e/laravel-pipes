@@ -44,7 +44,7 @@ final class SqlExtractor implements ExtractorInterface
      *
      * @param array<int,string> $select
      *
-     * @return \Jwhulette\Pipes\Extractors\SqlExtractor
+     * @return SqlExtractor
      */
     public function setColumns(array $select): self
     {
@@ -56,7 +56,7 @@ final class SqlExtractor implements ExtractorInterface
     /**
      * Set the table name to query data from.
      *
-     * @return \Jwhulette\Pipes\Extractors\SqlExtractor
+     * @return SqlExtractor
      */
     public function setTable(string $table): self
     {
@@ -68,7 +68,7 @@ final class SqlExtractor implements ExtractorInterface
     /**
      * Set the database connection name.
      *
-     * @return \Jwhulette\Pipes\Extractors\SqlExtractor
+     * @return SqlExtractor
      */
     public function setConnection(string $connection): self
     {
